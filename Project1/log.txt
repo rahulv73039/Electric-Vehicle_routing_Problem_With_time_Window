@@ -1,0 +1,5543 @@
+Initial Patterns added to the master problem
+1) [1 0 0 0 0 0]
+2) [0 2 0 0 0 0]
+3) [0 0 3 0 0 0]
+4) [0 0 0 4 0 0]
+5) [0 0 0 0 5 0]
+6) [0 0 0 0 0 10]
+
+Iteration 1:
+Dual Values: 1 0.5 0.333333 0.25 0.2 0.1 
+Objective value of the master-problem: 821.767
+New pattern generated: [1 1 0 0 0 0]
+Objective value of the sub-problem: 0.5
+
+Iteration 2:
+Dual Values: 0.5 0.5 0.333333 0.25 0.2 0.1 
+Objective value of the master-problem: 696.767
+New pattern generated: [0 2 0 1 0 0]
+Objective value of the sub-problem: 0.25
+
+Iteration 3:
+Dual Values: 0.625 0.375 0.333333 0.25 0.2 0.1 
+Objective value of the master-problem: 676.142
+New pattern generated: [0 0 3 0 0 1]
+Objective value of the sub-problem: 0.1
+
+Iteration 4:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 5:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 6:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 7:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 8:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 9:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 10:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 11:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 12:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 13:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 14:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 15:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 16:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 17:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 18:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 19:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 20:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 21:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 22:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 23:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 24:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 25:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 26:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 27:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 28:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 29:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 30:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 31:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 32:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 33:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 34:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 35:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 36:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 37:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 38:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 39:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 40:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 41:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 42:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 43:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 44:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 45:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 46:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 47:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 48:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 49:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 50:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 51:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 52:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 53:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 54:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 55:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 56:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 57:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 58:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 59:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 60:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 61:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 62:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 63:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 64:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 65:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 66:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 67:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 68:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 69:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 70:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 71:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 72:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 73:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 74:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 75:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 76:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 77:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 78:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 79:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 80:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 81:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 82:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 83:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 84:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 85:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 86:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 87:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 88:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 89:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 90:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 91:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 92:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 93:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 94:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 95:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 96:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 97:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 98:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 99:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 100:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 101:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 102:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 103:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 104:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 105:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 106:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 107:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 108:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 109:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 110:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 111:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 112:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 113:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 114:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 115:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 116:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 117:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 118:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 119:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 120:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 121:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 122:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 123:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 124:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 125:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 126:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 127:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 128:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 129:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 130:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 131:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 132:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 133:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 134:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 135:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 136:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 137:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 138:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 139:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 140:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 141:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 142:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 143:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 144:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 145:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 146:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 147:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 148:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 149:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 150:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 151:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 152:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 153:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 154:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 155:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 156:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 157:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 158:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 159:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 160:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 161:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 162:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 163:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 164:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 165:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 166:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 167:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 168:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 169:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 170:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 171:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 172:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 173:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 174:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 175:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 176:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 177:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 178:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 179:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 180:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 181:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 182:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 183:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 184:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 185:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 186:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 187:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 188:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 189:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 190:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 191:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 192:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 193:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 194:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 195:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 196:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 197:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 198:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 199:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 200:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 201:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 202:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 203:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 204:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 205:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 206:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 207:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 208:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 209:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 210:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 211:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 212:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 213:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 214:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 215:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 216:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 217:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 218:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 219:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 220:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 221:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 222:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 223:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 224:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 225:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 226:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 227:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 228:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 229:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 230:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 231:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 232:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 233:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 234:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 235:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 236:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 237:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 238:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 239:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 240:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 241:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 242:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 243:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 244:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 245:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 246:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 247:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 248:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 249:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 250:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 251:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 252:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 253:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 254:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 255:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 256:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 257:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 258:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 259:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 260:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 261:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 262:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 263:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 264:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 265:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 266:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 267:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 268:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 269:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 270:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 271:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 272:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 273:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 274:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 275:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 276:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 277:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 278:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 279:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 280:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 281:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 282:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 283:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 284:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 285:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 286:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 287:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 288:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 289:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 290:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 291:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 292:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 293:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 294:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 295:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 296:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 297:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 298:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 299:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 300:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 301:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 302:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 303:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 304:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 305:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 306:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 307:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 308:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 309:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 310:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 311:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 312:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 313:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 314:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 315:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 316:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 317:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 318:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 319:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 320:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 321:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 322:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 323:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 324:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 325:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 326:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 327:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 328:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 329:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 330:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 331:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 332:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 333:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 334:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 335:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 336:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 337:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 338:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 339:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 340:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 341:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 342:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 343:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 344:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 345:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 346:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 347:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 348:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 349:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 350:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 351:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 352:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 353:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 354:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 355:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 356:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 357:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 358:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 359:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 360:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 361:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 362:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 363:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 364:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 365:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 366:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 367:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 368:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 369:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 370:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 371:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 372:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 373:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 374:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 375:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 376:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 377:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 378:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 379:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 380:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 381:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 382:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 383:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 384:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 385:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 386:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 387:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 388:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 389:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 390:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 391:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 392:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 393:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 394:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 395:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 396:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 397:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 398:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 399:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 400:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 401:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 402:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 403:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 404:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 405:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 406:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 407:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 408:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 409:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 410:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 411:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 412:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 413:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 414:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 415:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 416:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 417:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 418:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 419:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 420:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 421:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 422:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 423:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 424:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 425:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 426:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 427:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 428:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 429:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 430:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 431:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 432:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 433:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 434:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 435:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 436:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 437:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 438:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 439:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 440:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 441:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 442:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 443:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 444:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 445:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 446:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 447:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 448:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 449:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 450:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 451:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 452:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 453:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 454:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 455:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 456:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 457:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 458:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 459:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 460:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 461:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 462:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 463:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 464:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 465:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 466:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 467:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 468:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 469:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 470:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 471:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 472:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 473:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 474:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 475:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 476:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 477:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 478:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 479:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 480:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 481:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 482:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 483:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 484:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 485:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 486:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 487:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 488:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 489:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 490:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 491:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 492:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 493:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 494:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 495:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 496:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 497:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 498:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 499:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 500:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 501:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 502:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 503:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 504:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 505:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 506:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 507:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 508:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 509:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 510:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 511:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 512:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 513:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 514:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 515:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 516:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 517:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 518:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 519:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 520:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 521:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 522:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 523:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 524:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 525:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 526:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 527:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 528:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 529:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 530:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 531:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 532:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 533:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 534:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 535:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 536:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 537:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 538:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 539:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 540:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 541:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 542:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 543:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 544:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 545:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 546:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 547:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 548:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 549:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 550:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 551:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 552:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 553:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 554:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 555:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 556:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 557:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 558:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 559:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 560:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 561:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 562:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 563:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 564:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 565:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 566:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 567:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 568:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 569:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 570:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 571:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 572:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 573:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 574:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 575:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 576:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 577:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 578:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 579:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 580:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 581:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 582:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 583:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 584:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 585:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 586:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 587:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 588:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 589:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 590:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 591:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 592:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 593:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 594:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 595:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 596:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 597:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 598:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 599:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 600:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 601:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 602:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 603:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 604:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 605:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 606:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 607:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 608:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 609:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 610:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 611:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 612:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 613:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 614:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 615:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 616:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 617:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 618:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 619:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 620:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 621:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 622:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 623:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 624:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 625:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 626:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 627:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 628:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 629:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 630:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 631:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 632:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 633:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 634:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 635:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 636:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 637:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 638:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 639:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 640:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 641:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 642:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 643:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 644:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 645:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 646:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 647:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 648:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 649:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 650:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 651:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 652:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 653:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 654:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 655:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 656:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 657:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 658:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 659:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 660:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 661:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 662:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 663:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 664:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 665:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 666:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 667:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 668:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 669:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 670:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 671:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 672:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 673:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 674:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 675:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 676:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 677:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 678:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 679:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 680:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 681:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 682:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 683:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 684:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 685:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 686:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 687:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 688:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 689:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 690:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 691:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 692:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 693:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 694:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 695:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 696:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 697:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 698:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 699:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 700:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 701:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 702:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 703:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 704:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 705:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 706:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 707:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 708:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 709:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 710:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 711:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 712:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 713:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 714:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 715:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 716:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 717:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 718:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 719:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 720:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 721:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 722:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 723:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 724:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 725:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 726:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 727:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 728:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 729:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 730:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 731:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 732:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 733:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 734:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 735:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 736:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 737:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 738:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 739:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 740:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 741:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 742:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 743:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 744:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 745:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 746:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 747:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 748:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 749:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 750:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 751:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 752:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 753:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 754:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 755:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 756:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 757:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 758:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 759:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 760:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 761:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 762:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 763:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 764:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 765:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 766:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 767:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 768:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 769:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 770:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 771:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 772:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 773:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 774:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 775:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 776:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 777:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 778:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 779:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 780:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 781:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 782:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 783:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 784:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 785:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 786:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 787:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 788:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 789:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 790:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 791:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 792:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 793:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 794:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 795:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 796:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 797:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 798:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 799:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 800:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 801:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 802:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 803:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 804:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 805:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 806:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 807:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 808:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 809:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 810:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 811:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 812:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 813:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 814:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 815:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 816:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 817:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 818:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 819:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 820:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 821:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 822:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 823:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 824:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 825:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 826:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 827:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 828:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 829:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 830:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 831:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 832:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 833:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 834:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 835:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 836:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 837:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 838:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 839:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 840:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 841:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 842:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 843:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 844:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 845:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 846:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 847:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 848:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 849:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 850:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 851:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 852:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 853:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 854:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 855:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 856:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 857:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 858:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 859:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 860:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 861:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 862:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 863:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 864:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 865:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 866:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 867:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 868:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 869:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 870:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 871:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 872:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 873:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 874:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 875:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 876:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 877:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 878:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 879:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 880:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 881:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 882:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 883:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 884:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 885:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 886:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 887:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 888:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 889:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 890:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 891:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 892:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 893:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 894:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 895:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 896:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 897:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 898:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 899:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 900:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 901:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 902:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 903:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 904:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 905:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 906:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 907:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 908:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 909:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 910:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 911:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 912:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 913:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 914:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 915:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 916:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 917:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 918:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 919:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 920:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 921:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 922:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375
+New pattern generated: [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.075
+
+Iteration 923:
+Dual Values: 0.625 0.375 0.3 0.25 0.2 0.1 
+Objective value of the master-problem: 667.375

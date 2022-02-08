@@ -1,0 +1,35 @@
+Initial Patterns added to the master problem
+1) [1 0 0 0 0 0]
+2) [0 2 0 0 0 0]
+3) [0 0 3 0 0 0]
+4) [0 0 0 4 0 0]
+5) [0 0 0 0 5 0]
+6) [0 0 0 0 0 10]
+
+Iteration 1: 
+Dual Values: 1.00 0.50 0.33 0.25 0.20 0.10 
+Objective value of the master-problem: 821.77
+New patttern generated : [1 1 0 0 0 0]
+
+Iteration 2: 
+Dual Values: 0.50 0.50 0.33 0.25 0.20 0.10 
+Objective value of the master-problem: 696.77
+New patttern generated : [0 2 0 1 0 0]
+
+Iteration 3: 
+Dual Values: 0.62 0.38 0.33 0.25 0.20 0.10 
+Objective value of the master-problem: 676.14
+New patttern generated : [0 0 3 0 0 1]
+
+Iteration 4: 
+Dual Values: 0.62 0.38 0.30 0.25 0.20 0.10 
+Objective value of the master-problem: 667.38
+New patttern generated : [1 0 0 0 1 0]
+
+Iteration 5: 
+Dual Values: 0.62 0.38 0.30 0.25 0.20 0.10 
+Objective value of the master-problem: 667.38
+New patttern generated : [1 0 0 0 1 0]
+Objective value of the sub-problem: 0.07
+
+Optimality attained for the master-problem.
