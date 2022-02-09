@@ -1,4 +1,3 @@
-//#define _CRT_SECURE_NO_DEPRECATE
 #include<iostream>
 #include<fstream>
 #include<cmath>
@@ -8,10 +7,10 @@
 using namespace std;
 
 //Declaring variables globally
-int* W = new int(0);
+int* len_stock = new int(0);
 int* n_orders = new int(0);
 float* weights;
-int* d;
+int* demand;
 
 ifstream fin("input.txt");
 ofstream fout("output.txt");
@@ -26,10 +25,10 @@ int** initial_pattern() {
 		{
 			pattern[*i][*j] = 0;
 		}
-		pattern[*i][*i] = ((*W) / weights[*i]);
+		pattern[*i][*i] = ((*len_stock) / weights[*i]);
 
 	}
-	pattern[0][0] = std::floor((*W) / weights[0]);
+	pattern[0][0] = std::floor((*len_stock) / weights[0]);
 	lout << "Initial Patterns added to the master problem" << endl;
 	for (int* i = new int(0); *i < *n_orders; (*i)++)
 	{
@@ -64,7 +63,7 @@ IloModel master_lp_form(IloEnv env, IloNumVarArray x, IloRangeArray constr1 , Il
 		{
 			exp += (pattern[*p][*i]) * (x[*p]);
 		}
-		constr1.add(exp >= d[*i]);
+		constr1.add(exp >= demand[*i]);
 	}
 
 	Model.add(constr1);
@@ -74,40 +73,38 @@ IloModel master_lp_form(IloEnv env, IloNumVarArray x, IloRangeArray constr1 , Il
 double Knapsack(double* dual, int* newPattern) {
 	IloEnv env;
 	IloModel Model(env);
-	IloNumVarArray newPat(env, *n_orders, 0, IloInfinity, ILOINT);
+	IloNumVarArray new_pat(env, *n_orders, 0, IloInfinity, ILOINT);
 
 	IloExpr exp0(env);
 	for (int* i = new int(0); *i < *n_orders; (*i)++)
 	{
-		exp0 += dual[*i] * newPat[*i];
+		exp0 += dual[*i] * new_pat[*i];
 	}
 	Model.add(IloMaximize(env, exp0));
 	IloExpr exp1(env);
 	for (int* i = new int(0); *i < *n_orders; (*i)++)
 	{
-		exp1 += weights[*i] * newPat[*i];
+		exp1 += weights[*i] * new_pat[*i];
 	}
-	Model.add(exp1 <= (*W));
-	IloCplex mp(Model);
-	mp.setOut(env.getNullStream());
-	if (!mp.solve()) {
+	Model.add(exp1 <= (*len_stock));
+	IloCplex mod(Model);
+	mod.setOut(env.getNullStream());
+	if (!mod.solve()) {
 		env.error() << "Failed to optimize the Master Problem!!!" << endl;
-		cout << "fail to optimize the master problem" << endl;
 		throw(-1);
 	}
 	
 	double obj = 0.0;
-	obj = mp.getObjValue();
+	obj = mod.getObjValue();
 	lout << "Objective value of the sub-problem: " << obj - 1 << endl;
 	lout << "New pattern generated : [";
 	for (int* i = new int(0); *i < *n_orders; (*i)++)
 	{
-		newPattern[*i] = mp.getValue(newPat[*i]);
-		if ((*i) == ((*n_orders) - 1))lout << newPattern[*i];
-		else lout << newPattern[*i] << " ";
+		newPattern[*i] = mod.getValue(new_pat[*i]);
+		 lout << newPattern[*i] << " ";
 	}
 
-	lout << "]" << endl;
+	lout << newPattern[(*n_orders) - 1] << "]" << endl;
 	
 	return obj;
 }
@@ -120,13 +117,13 @@ int main() {
 	char *a = new char[100];
 	int* b = new int(0);
 	fin>>a>>a>>a>>*b;
-	*W = *b;
+	*len_stock = *b;
 	fin >> a >> a >> a >> *n_orders;
 	fin >> a >> a >> a;
 	weights = new(nothrow) float[*n_orders];
-	d = new(nothrow) int[*n_orders];
+	demand = new(nothrow) int[*n_orders];
 	for (int* i = new int(0); *i < *n_orders; (*i)++) {
-		fin >> weights[*i] >> d[*i];
+		fin >> weights[*i] >> demand[*i];
 	}
 #pragma endregion
 #pragma region Initial_pattern
@@ -138,49 +135,49 @@ int main() {
 	int** cutting_p = new int* [*n_orders];
 	int* npattern = new int[*n_orders];
 	int* iter = new int(0);
-	double SP_obj;
-	double obj_val; 
-	double pre_SP_obj = numeric_limits<float>::max();
+	double *sub_obj = new double(0.0);
+	double *obj_val = new double(0.0);
+	double pre_sub_obj = numeric_limits<float>::max();
 	while (1) {
 		(*iter)++;
 		IloEnv env;
 		IloNumVarArray x(env, (*n_orders) + (*iter) - 1, 0, IloInfinity, ILOFLOAT);
 		IloRangeArray constr1(env);
 		IloRangeArray constr2(env);
-		IloCplex mp(master_lp_form(env,x, constr1,constr2, iter, pattern));
+		IloCplex mod(master_lp_form(env,x, constr1,constr2, iter, pattern));
 
 
-		mp.setOut(env.getNullStream());
-		mp.solve();
+		mod.setOut(env.getNullStream());
+		mod.solve();
 
 		lout << "Iteration " << (*iter) << ": " << endl << "Dual Values: ";
 		double* dual = new double[*n_orders]();
 		for (int* i = new int(0); *i < *n_orders; (*i)++)
 		{
-			dual[*i] = mp.getDual(constr1[*i]);
+			dual[*i] = mod.getDual(constr1[*i]);
 			lout << fixed << setprecision(2) << dual[*i] << " ";
 		}
 		lout << endl;
-		obj_val = mp.getObjValue();
-		lout << "Objective value of the master-problem: " << obj_val << endl;
+		*obj_val = mod.getObjValue();
+		lout << "Objective value of the master-problem: " << *obj_val << endl;
 		// generate a new pattern from the subproblem (knapsack problem)
 
 		int* newPattern = new int[*n_orders];
 		for (int i = 0; i < *n_orders; i++) {
 			newPattern[i] = 0;
 		}
-		SP_obj = Knapsack(dual, newPattern);
+		*sub_obj = Knapsack(dual, newPattern);
 
 
 		// check the optimality condition/ add the new pattern
-		if ((1 - SP_obj >= 0) || (pre_SP_obj == SP_obj)) {
+		if ((1 - *sub_obj >= 0) || (pre_sub_obj == *sub_obj)) {
 			lout << endl << "Optimality attained for the master-problem.";
 
 			int* index = new int(0);
 			for (int i = 0; i < ((*n_orders) + (*iter) - 1); i++) {
-				if (ceil(mp.getValue(x[i])) > 0) {
+				if (ceil(mod.getValue(x[i])) > 0) {
 					cutting_p[*index] = pattern[i];
-					npattern[*index] = ceil(mp.getValue(x[i]));
+					npattern[*index] = ceil(mod.getValue(x[i]));
 					(*index)++;
 				}
 			}
@@ -190,7 +187,7 @@ int main() {
 		}
 		else
 		{
-			pre_SP_obj = SP_obj;
+			pre_sub_obj = *sub_obj;
 			pattern[(*n_orders) + (*iter) - 1] = newPattern;
 		}
 		lout << endl;
@@ -201,7 +198,7 @@ int main() {
 	
 #pragma endregion
 #pragma region waste
-	fout << "No. of stocks to be cut: " << std::ceil(obj_val) << endl;
+	fout << "No. of stocks to be cut: " << std::ceil(*obj_val) << endl;
 	float* waste_t = new float(0.0);
 	float* waste_i = new float(0.0);
 	for (int* p = new int(0); *p < *n_orders; (*p)++) {
@@ -209,17 +206,20 @@ int main() {
 		for (int* i = new int(0); *i < (*n_orders); (*i)++) {
 			*waste_i = (*waste_i) + (weights[*i] * (cutting_p[*p][*i]));
 		}
-		(*waste_t) += (((*W) - (*waste_i)) * npattern[*p]);
+		(*waste_t) += (((*len_stock) - (*waste_i)) * npattern[*p]);
 	}
-	(*waste_t) = ((*waste_t) / ((*W) * std::ceil(obj_val))) * 100;
-	fout << fixed << setprecision(2) << "Waste percentage: " << *waste_t << endl;
+	(*waste_t) = ((*waste_t) / ((*len_stock) * ceil(*obj_val))) ;
+	fout << fixed << setprecision(2) << "Waste percentage: " << (*waste_t)*100 << endl;
 #pragma endregion
 
+
 	fout << "Order Lengths: [";
-	for (int* i = new int(0); (*i) < (*n_orders); (*i)++) {
-		if ((*i) == ((*n_orders) - 1))fout << fixed << setprecision(2) << weights[*i];
-		else fout << fixed << setprecision(2) << weights[*i] << " ";
-	}fout << "]" << endl;
+	for (int* i = new int(0); (*i) < (*n_orders) -1; (*i)++) {
+		 fout << fixed << setprecision(2) << weights[*i] << " ";
+	}
+	fout<< fixed << setprecision(2) << weights[(*n_orders) - 1] << "]" << endl;
+
+
 	fout << "Cutting Pattern" << "		" << "No.of times cut" << endl;
 	for (int* p = new int(0); *p < *n_orders; (*p)++) {
 		fout << "[";
