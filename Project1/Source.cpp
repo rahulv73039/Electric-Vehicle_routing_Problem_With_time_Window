@@ -1,7 +1,10 @@
+//#define _CRT_SECURE_NO_DEPRECATE
 #include<iostream>
 #include<fstream>
 #include<cmath>
+#include<cstdio>
 #include"ilcplex/ilocplex.h"
+
 using namespace std;
 
 //Declaring variables globally
@@ -41,6 +44,32 @@ int** initial_pattern() {
 	return pattern;
 }
 
+IloModel master_lp_form(IloEnv env, IloNumVarArray x, IloRangeArray constr1 , IloRangeArray constr2, int* iter , int** pattern) {
+
+	IloModel Model(env);
+
+	//Objective function: Minimize total waste
+	IloExpr obj(env);
+	for (int* p = new int(0); *p < (*n_orders) + (*iter) - 1; (*p)++) {
+		obj += x[*p];
+	}
+	Model.add(IloMinimize(env, obj));
+	obj.end();
+
+
+	for (int* i = new int(0); *i < *n_orders; (*i)++)
+	{
+		IloExpr exp(env);
+		for (int* p = new int(0); *p < (*n_orders) + (*iter) - 1; (*p)++)
+		{
+			exp += (pattern[*p][*i]) * (x[*p]);
+		}
+		constr1.add(exp >= d[*i]);
+	}
+
+	Model.add(constr1);
+	return Model;
+}
 
 double Knapsack(double* dual, int* newPattern) {
 	IloEnv env;
@@ -66,6 +95,10 @@ double Knapsack(double* dual, int* newPattern) {
 		cout << "fail to optimize the master problem" << endl;
 		throw(-1);
 	}
+	
+	double obj = 0.0;
+	obj = mp.getObjValue();
+	lout << "Objective value of the sub-problem: " << obj - 1 << endl;
 	lout << "New pattern generated : [";
 	for (int* i = new int(0); *i < *n_orders; (*i)++)
 	{
@@ -75,40 +108,25 @@ double Knapsack(double* dual, int* newPattern) {
 	}
 
 	lout << "]" << endl;
-	double obj = 0.0;
-	obj = mp.getObjValue();
+	
 	return obj;
 }
+
 
 int main() {
 
 #pragma region ProblemData
 
-	char* a = new char('a');
-	float* b = new float(0.0);
-	int* c = new int(0);
-	for (int* i = new int(0); *i < 14; (*i)++)
-	{
-		fin >> *a;
-	}
-	fin >> *W;
-	for (int* i = new int(0); *i < 12; (*i)++)
-	{
-		fin >> *a;
-	}
-	fin >> *n_orders;
+	char *a = new char[100];
+	int* b = new int(0);
+	fin>>a>>a>>a>>*b;
+	*W = *b;
+	fin >> a >> a >> a >> *n_orders;
+	fin >> a >> a >> a;
 	weights = new(nothrow) float[*n_orders];
 	d = new(nothrow) int[*n_orders];
-	for (int* i = new int(0); *i < 17; (*i)++)
-	{
-		fin >> *a;
-	}
-	for (int* i = new int(0); *i < *n_orders; (*i)++)
-	{
-		fin >> *b;
-		fin >> *c;
-		weights[*i] = *b;
-		d[*i] = *c;
+	for (int* i = new int(0); *i < *n_orders; (*i)++) {
+		fin >> weights[*i] >> d[*i];
 	}
 #pragma endregion
 #pragma region Initial_pattern
@@ -120,36 +138,18 @@ int main() {
 	int** cutting_p = new int* [*n_orders];
 	int* npattern = new int[*n_orders];
 	int* iter = new int(0);
-	double SP_obj; double obj_val; double pre_SP_obj = std::numeric_limits<float>::max();;
+	double SP_obj;
+	double obj_val; 
+	double pre_SP_obj = numeric_limits<float>::max();
 	while (1) {
 		(*iter)++;
 		IloEnv env;
-		IloModel Model(env);
 		IloNumVarArray x(env, (*n_orders) + (*iter) - 1, 0, IloInfinity, ILOFLOAT);
 		IloRangeArray constr1(env);
 		IloRangeArray constr2(env);
-
-		//Objective function: Minimize total waste
-		IloExpr obj(env);
-		for (int* p = new int(0); *p < (*n_orders) + (*iter) - 1; (*p)++) {
-			obj += x[*p];
-		}
-		Model.add(IloMinimize(env, obj));
-		obj.end();
+		IloCplex mp(master_lp_form(env,x, constr1,constr2, iter, pattern));
 
 
-		for (int* i = new int(0); *i < *n_orders; (*i)++)
-		{
-			IloExpr exp(env);
-			for (int* p = new int(0); *p < (*n_orders) + (*iter) - 1; (*p)++)
-			{
-				exp += (pattern[*p][*i]) * (x[*p]);              /// changed
-			}
-			constr1.add(exp >= d[*i]);
-		}
-
-		Model.add(constr1);
-		IloCplex mp(Model);
 		mp.setOut(env.getNullStream());
 		mp.solve();
 
@@ -170,9 +170,8 @@ int main() {
 			newPattern[i] = 0;
 		}
 		SP_obj = Knapsack(dual, newPattern);
-		if (pre_SP_obj == SP_obj)
 
-			lout << "Objective value of the sub-problem: " << SP_obj - 1 << endl;
+
 		// check the optimality condition/ add the new pattern
 		if ((1 - SP_obj >= 0) || (pre_SP_obj == SP_obj)) {
 			lout << endl << "Optimality attained for the master-problem.";
@@ -197,9 +196,12 @@ int main() {
 		lout << endl;
 
 	}
-	fout << "No. of stocks to be cut: " << std::ceil(obj_val) << endl;
+
+
+	
 #pragma endregion
 #pragma region waste
+	fout << "No. of stocks to be cut: " << std::ceil(obj_val) << endl;
 	float* waste_t = new float(0.0);
 	float* waste_i = new float(0.0);
 	for (int* p = new int(0); *p < *n_orders; (*p)++) {
