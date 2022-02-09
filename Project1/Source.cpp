@@ -99,7 +99,7 @@ double Knapsack(double* dual, int* newPattern) {
 	double obj = 0.0;
 	obj = mod.getObjValue();
 	lout << "Objective value of the sub-problem: " << obj - 1 << endl;
-	lout << "New pattern generated : [";
+	lout << "New pattern generated: [";
 	for (int* i = new int(0); *i < *n_orders; (*i)++)
 	{
 		newPattern[*i] = mod.getValue(new_pat[*i]);
@@ -196,7 +196,7 @@ int main() {
 	}
 
 //--------------------------------------------------Output---------------------------------------------------
-	fout << "No. of stocks to be cut: " << std::ceil(*obj_val) << endl;
+	fout << "No. of stocks to be cut: " << ceil(*obj_val) << endl;
 //Waste Calculation----------------------------------------------------------
 
 	float* waste_t = new float(0.0);
@@ -209,17 +209,17 @@ int main() {
 		(*waste_t) += (((*len_stock) - (*waste_i)) * npattern[*p]);
 	}
 	(*waste_t) = ((*waste_t) / ((*len_stock) * ceil(*obj_val))) ;
-	fout << fixed << setprecision(2) << "Waste percentage: " << (*waste_t)*100 << endl;
+	fout << "Waste percentage: " << (*waste_t)*100 << endl<<endl;
 
 //------------------------------------------------------------------------------
 	fout << "Order Lengths: [";
 	for (int* i = new int(0); (*i) < (*n_orders) -1; (*i)++) {
 		 fout << fixed << setprecision(2) << weights[*i] << " ";
 	}
-	fout<< fixed << setprecision(2) << weights[(*n_orders) - 1] << "]" << endl;
+	fout<< fixed << setprecision(2) << weights[(*n_orders) - 1] << "]" <<endl<< endl;
 //------------------------------------------------------------------------------
 
-	fout << "Cutting Pattern" << "		" << "No.of times cut" << endl;
+	fout << "Cutting Pattern" << "		" << "No.of times cut" <<endl;
 	for (int* p = new int(0); *p < *n_orders; (*p)++) {
 		fout << "[";
 		for (int* i = new int(0); *i < (*n_orders) - 1; (*i)++) {
