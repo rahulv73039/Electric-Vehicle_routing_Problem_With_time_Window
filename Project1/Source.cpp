@@ -1,233 +1,236 @@
+//-------------------------------------------------Rahul Verma---(190671)---------------------------------------------------
 #include<iostream>
 #include<fstream>
 #include<cmath>
 #include<cstdio>
 #include"ilcplex/ilocplex.h"
-
+#include"stdc++.h" 
 using namespace std;
 
-int* len_stock = new int(0); // Length of stock
-int* n_orders = new int(0); // No. of orders
-float* weights; // Order Length
-int* demand;   // Demand
+struct node {
+	double x, y, demand, readyTime, dueDate, serviceTime;  
+	string id;
+	//char type;
+	node(double b, double c, double d ,double e , double f,double g, string h) : x(b) ,y(c), demand(d), readyTime(e), dueDate(f), serviceTime(g) , id(h) {}
+	
+};
 
-ifstream fin("input.txt");
-ofstream fout("output.txt");
-ofstream lout("logs.txt"); 
-
-/*---------------------------------Initial Pattern Generation-----------------------------------------------------*/
-int** initial_pattern() {
-	int** pattern = new int* [*n_orders];
-	for (int* i = new int(0); *i < *n_orders; (*i)++)
-	{
-		pattern[*i] = new int[*n_orders];
-		for (int* j = new int(0); *j < *n_orders; (*j)++)
-		{
-			pattern[*i][*j] = 0;
-		}
-		pattern[*i][*i] = ((*len_stock) / weights[*i]);
-
+// node-> x;
+int main() {
+	ifstream fin("input.txt");
+	ofstream fout("output.txt");
+	string s;
+	fin >> s >> s >> s >> s >> s >> s >> s >> s;
+	string id;
+	map<string, vector<node*>> mp;  
+	while (fin >> s) {
+		if (s == "Q")break; 
+		string a;
+		double b, c, d, e, f, g;
+		fin >> a >> b >> c >> d >> e >> f >> g;
+		node* tmp = new node(b, c, d, e, f, g,s);
+		mp[a].push_back(tmp);
 	}
-	pattern[0][0] = std::floor((*len_stock) / weights[0]);
-	lout << "Initial Patterns added to the master problem" << endl;
-	for (int* i = new int(0); *i < *n_orders; (*i)++)
-	{
-		lout << (*i) + 1 << ") [";
-		for (int* j = new int(0); *j < *n_orders -1; (*j)++)
-		{
-			
-			 lout << pattern[*i][*j] << " ";
-		}
-		lout << pattern[*i][(*n_orders) - 1] << "]" << "\n";
-	}lout << endl;
-	return pattern;
-}
-/*----------------------------------------------------------------------------------------------------------------*/
-/*------------------------------------------LP Formulation--------------------------------------------------------*/
-IloModel master_lp_form(IloEnv env, IloNumVarArray x, IloRangeArray constr1 , IloRangeArray constr2, int* iter , int** pattern) {
-
-	IloModel Model(env);
-
-	//Objective function
-	IloExpr obj(env);
-	for (int* p = new int(0); *p < (*n_orders) + (*iter) - 1; (*p)++) {
-		obj += x[*p];
-	}
-	Model.add(IloMinimize(env, obj));  // Minimisation
-	obj.end();
-
-
-	for (int* i = new int(0); *i < *n_orders; (*i)++)
-	{
-		IloExpr exp(env);
-		for (int* p = new int(0); *p < (*n_orders) + (*iter) - 1; (*p)++)
-		{
-			exp += (pattern[*p][*i]) * (x[*p]);
-		}
-		constr1.add(exp >= demand[*i]);
-	}
-
-	Model.add(constr1);
-	return Model;
-}
-/*------------------------------------------------------------------------------------------------------------*/
-/*--------------------------------------Solving Subproblem(Knapsack)------------------------------------------*/
-double Knapsack(double* dual, int* newPattern) {
+	//for (int i = 0; i < mp["c"].size(); i++)cout << mp["c"][i]->x<<endl;
+	double Q, C, r, g, v;
+	char c;
+	fin >> s >> s >> s >> s >> c >> Q >> c >> s >> s >> s >> s >> c >> C >> c >> s >> s >> s >> s >> c >> r >> c >> s >> s >> s >> s >> c >> g >> c >> s >> s >> s >> c >> v >> c;
+	//cout << Q << " " << C << " " << r << " " << g << " " << v;
+	// All Scanning correct  
+	//mp["f'"].push_back(mp["f"][0]); 
+	//cout << mp["f"].size() << endl;
+	for (int i = 0; i < mp["c"].size(); i++) {
+		for (int j = 0; j < mp["f"].size(); j++) {
+			mp["f'"].push_back(mp["f"][j]);
+		} 
+	}  
+	
+	// by data point of view v'0 = v'n+1 so we declare only one
+	mp["v'0"] = mp["d"];
+	mp["v'0"].insert(mp["v'0"].end(), mp["c"].begin(), mp["c"].end());
+	mp["v'0"].insert(mp["v'0"].end(), mp["f'"].begin(), mp["f'"].end());
 	IloEnv env;
 	IloModel Model(env);
-	IloNumVarArray new_pat(env, *n_orders, 0, IloInfinity, ILOINT);
+	int n = mp["v'0"].size();
+	IloArray<IloNumVarArray> xij(env,n+1);  
+	IloNumVarArray ti(env, n+1, 0, IloInfinity, ILOFLOAT);
+	IloNumVarArray yi(env, n + 1, 0, IloInfinity, ILOFLOAT); 
+	IloNumVarArray ui(env, n + 1, 0, IloInfinity, ILOFLOAT);
+	for (int i = 0; i <n+1 ; i++)xij[i] = IloNumVarArray(env, n+1, 0, 1, ILOINT);
+	IloExpr obj(env);  
+	vector<vector<double>> dij(n+1,vector<double>(n+1,0)); 
+	// calculating dij for  i  in v'0 and  j in v'n+1
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			double x1 = mp["v'0"][i]->x, y1 = mp["v'0"][i]->y, x2 = mp["v'0"][j]->x, y2 = mp["v'0"][j]->y; 
+			dij[i][j] = sqrt(((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
 
-	IloExpr exp0(env);
-	for (int* i = new int(0); *i < *n_orders; (*i)++)
-	{
-		exp0 += dual[*i] * new_pat[*i];
+		}
+	} 
+	// dij for j = n+1
+	for (int i = 0; i < n; i++) {
+		double x1 = mp["v'0"][i]->x, y1 = mp["v'0"][i]->y, x2 = mp["v'0"][0]->x, y2 = mp["v'0"][0]->y; // since 0 == n+1
+	    dij[i][n] = sqrt(((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
 	}
-	Model.add(IloMaximize(env, exp0));
+	for (int j = 0; j < n; j++) {
+		double x1 = mp["v'0"][0]->x, y1 = mp["v'0"][0]->y, x2 = mp["v'0"][j]->x, y2 = mp["v'0"][j]->y; // since 0 == n+1
+		dij[n][j] = sqrt(((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
+	}
+
+	for (int i = 0; i < n; i++) {
+		for (int j = 1; j < n+1; j++) {
+			if(i!=j && !(i==0 && j== n))obj += dij[i][j] * xij[i][j];
+		}
+	}
+	Model.add(IloMinimize(env, obj));
+	 // i am assuming 0 is depot 1,mp['c'] size is cust and all till n is f' and n+1 is depot again
+	IloRangeArray constr1(env);
+ // (2)
+	for (int i = 1; i < mp["c"].size() +1; i++) {
+		IloExpr exp(env);
+		for (int j = 1; j < n+1; j++) {
+			if (i != j )exp += xij[i][j];
+		}
+		constr1.add(exp == 1);
+	} 
+	//(3)
+	for (int i = mp["c"].size() + 1; i < n; i++) {
+		IloExpr exp(env);
+		for (int j = 1; j < n + 1; j++) {
+			if (i != j )exp += xij[i][j];
+		}
+		constr1.add(exp <= 1);
+	} 
+	//(4)
+	for (int j = 1; j < n; j++) {
+		IloExpr exp(env); 
+		for (int i = 1; i < n + 1; i++) {
+			if (i != j) {
+				exp += xij[j][i];
+			} 
+		}
+		for (int i = 0; i < n; i++) {
+			if (i != j)exp -= xij[i][j];
+
+		} 
+		constr1.add(exp == 0);
+	} 
+	
+	
+	//because vehicle is travelling with constant speed say v so tij[i][j] = d[i][j]/v
+	vector<vector<double>> tij(n + 1, vector<double>(n + 1, 0));
+	for (int i = 0; i < n + 1; i++) {
+		for (int j = 0; j < n + 1; j++)tij[i][j] =  dij[i][j]/v;
+	} 
+
+	// (5) 
+	for (int i = 0; i < mp["c"].size() + 1; i++) {
+		for (int j = 1; j < n + 1; j++) {
+			// V0 is V'0 from 0 to mp["c"].size+1
+			if (i != j) {
+				IloExpr exp(env); 
+				exp = ti[i] - ti[j] + (tij[i][j] + mp["v'0"][i]->serviceTime) * xij[i][j] - (mp["v'0"][0]->dueDate * (1 - xij[i][j])); 
+				constr1.add(exp <= 0);
+			}
+		}
+	}
+
+	//(6)
+	for (int i = mp["c"].size() + 1; i < n; i++) {
+		for (int j = 1; j < n + 1; j++) {
+			if (i != j) {
+				IloExpr exp(env); 
+				exp = ti[i] - ti[j] + tij[i][j] * xij[i][j] + g * (Q - yi[i]) - (mp["v'0"][0]->dueDate + g * Q) * (1 - xij[i][j]);
+				constr1.add(exp <= 0);
+			} 
+		} 
+	} 
+	//(7)
+	for (int j = 0; j < n; j++) {
+		IloExpr exp(env);
+		exp = ti[j]; 
+		constr1.add(exp >= mp["v'0"][j]->readyTime);
+		constr1.add(exp <= mp["v'0"][j]->dueDate);
+	}
+	// for n+1 
 	IloExpr exp1(env);
-	for (int* i = new int(0); *i < *n_orders; (*i)++)
-	{
-		exp1 += weights[*i] * new_pat[*i];
+	exp1 = ti[n];
+	constr1.add(exp1 >= mp["v'0"][0]->readyTime);
+	constr1.add(exp1 <= mp["v'0"][0]->dueDate);
+	//(8) 
+	for (int i = 0; i < n; i++) {
+		for (int j = 1; j < n + 1; j++) { 
+			if (i != j && !(i == 0 && j == n)) {
+				IloExpr exp(env);
+				exp = ui[i] - ui[j] - mp["v'0"][i]->demand * xij[i][j] + C * (1 - xij[i][j]);
+				constr1.add(exp >= 0);
+			} 
+		}
+	} 
+	//(9) 
+	IloExpr exp(env);
+	exp = ui[0];
+	constr1.add(exp <= C); 
+
+	//(10)
+	// h is charge consumption rate in data r(fuel consumption rate is given) 
+	// so h==r taken
+	for (int i = 1; i < mp["c"].size() + 1; i++) {
+		for (int j = 1; j < n+1; j++) {
+			if (i != j) {
+				IloExpr exp(env); 
+				exp = yi[i] - yi[j] - (r * dij[i][j]) * xij[i][j] + Q * (1 - xij[i][j]);
+				constr1.add(exp >= 0);
+			}
+		}
+	} 
+
+	//(11)  
+	// here we encouter f'0 we need to add constraint for 0 seperately
+
+	// for i =0 ; and j can not be n here
+	for (int j = 1; j < n ; j++) {
+			IloExpr exp(env);
+			exp = Q - (r * dij[0][j]) * xij[0][j] - yi[j];
+			constr1.add(exp >= 0);
 	}
-	Model.add(exp1 <= (*len_stock));
+
+	// for i in f'
+	for (int i = mp["c"].size() + 1; i < n; i++) {
+		for (int j = 1; j < n + 1; j++) {
+			if (i != j) {
+				IloExpr exp(env); 
+				exp = Q - (r * dij[i][j]) * xij[i][j] - yi[j];
+				constr1.add(exp >= 0);
+			}
+		}
+	} 
+	Model.add(constr1);
 	IloCplex mod(Model);
 	mod.setOut(env.getNullStream());
-	if (!mod.solve()) {
-		env.error() << "Failed to optimize the Master Problem!!!" << endl;
-		throw(-1);
-	}
-	
-	double obj = 0.0;
-	obj = mod.getObjValue();
-	lout << "Objective value of the sub-problem: " << obj - 1 << endl;
-	lout << "New pattern generated: [";
-	for (int* i = new int(0); *i < *n_orders; (*i)++)
-	{
-		newPattern[*i] = mod.getValue(new_pat[*i]);
-		 lout << newPattern[*i] << " ";
-	}
-
-	lout << newPattern[(*n_orders) - 1] << "]" << endl;
-	
-	return obj;
-}
-/*---------------------------------------------------------------------------------------------------*/
-
-int main() {
-
-//------------------Taking Input from file----------------------------------------------------
-
-	char *a = new char[100];
-	int* b = new int(0);
-	fin>>a>>a>>a>>*b;
-	*len_stock = *b;
-	fin >> a >> a >> a >> *n_orders;
-	fin >> a >> a >> a;
-	weights = new(nothrow) float[*n_orders];
-	demand = new(nothrow) int[*n_orders];
-	for (int* i = new int(0); *i < *n_orders; (*i)++) {
-		fin >> weights[*i] >> demand[*i];
-	}
-//--------------------------------------------------------------------------------------
-
-	int** pattern = initial_pattern();
-
-//------------------------Master Problem-------------------------------------------------
-	int** cutting_p = new int* [*n_orders];
-	int* npattern = new int[*n_orders];
-	int* iter = new int(0);
-	double *sub_obj = new double(0.0);
-	double *obj_val = new double(0.0);
-	double pre_sub_obj = numeric_limits<float>::max();
-	while (1) {
-		(*iter)++;
-		IloEnv env;
-		IloNumVarArray x(env, (*n_orders) + (*iter) - 1, 0, IloInfinity, ILOFLOAT);
-		IloRangeArray constr1(env);
-		IloRangeArray constr2(env);
-		IloCplex mod(master_lp_form(env,x, constr1,constr2, iter, pattern));
-
-
-		mod.setOut(env.getNullStream());
-		mod.solve();
-
-		lout << "Iteration " << (*iter) << ": " << endl << "Dual Values: ";
-//Dual Value Calculation
-		double* dual = new double[*n_orders]();
-		for (int* i = new int(0); *i < *n_orders; (*i)++)
-		{
-			dual[*i] = mod.getDual(constr1[*i]);
-			lout << fixed << setprecision(2) << dual[*i] << " ";
-		}
-		lout << endl;
-		*obj_val = mod.getObjValue();
-		lout << "Objective value of the master-problem: " << *obj_val << endl;
-// generating new pattern from the subproblem (knapsack problem)
-
-		int* newPattern = new int[*n_orders];
-		for (int i = 0; i < *n_orders; i++) {
-			newPattern[i] = 0;
-		}
-		*sub_obj = Knapsack(dual, newPattern);
-
-
-	// check optimality condition or add new pattern
-		if ((1 - *sub_obj >= 0) || (pre_sub_obj == *sub_obj)) {
-			lout << endl << "Optimality attained for the master-problem.";
-
-			int* index = new int(0);
-			for (int i = 0; i < ((*n_orders) + (*iter) - 1); i++) {
-				if (ceil(mod.getValue(x[i])) > 0) {
-					cutting_p[*index] = pattern[i];
-					npattern[*index] = ceil(mod.getValue(x[i]));
-					(*index)++;
+	mod.solve(); 
+	fout << "Minimum distance" <<" "<<
+		mod.getObjValue()<< "\n";
+	for (int i = 0; i < n; i++) {
+		for (int j = 1; j < n + 1; j++) {
+			if (i != j && !(i == 0 && j == n))if (mod.getValue(xij[i][j]) == 1) {
+				int tmp;
+				if (j == mp["v'0"].size()) tmp = 0;
+				else tmp = j;
+				if (mp["v'0"][i]->id != mp["v'0"][tmp]->id) {
+					
+					fout << mp["v'0"][i]->id<<"("<< mod.getValue(ti[i]) << ")" << "---" << tij[i][j] << "---" << mp["v'0"][tmp]->id<< "("<< mod.getValue(ti[j])<<")" << endl;
 				}
+
 			}
-
-
-			break;
 		}
-		else
-		{
-			pre_sub_obj = *sub_obj;
-			pattern[(*n_orders) + (*iter) - 1] = newPattern;
-		}
-		lout << endl;
 
 	}
-
-//--------------------------------------------------Output---------------------------------------------------
-	fout << "No. of stocks to be cut: " << ceil(*obj_val) << endl;
-//Waste Calculation----------------------------------------------------------
-
-	float* waste_t = new float(0.0);
-	float* waste_i = new float(0.0);
-	for (int* p = new int(0); *p < *n_orders; (*p)++) {
-		*waste_i = 0;
-		for (int* i = new int(0); *i < (*n_orders); (*i)++) {
-			*waste_i = (*waste_i) + (weights[*i] * (cutting_p[*p][*i]));
-		}
-		(*waste_t) += (((*len_stock) - (*waste_i)) * npattern[*p]);
+	
+	
+	for (int i = 0; i < n; i++) {
+		cout << mp["v'0"][i]->id << endl;
 	}
-	(*waste_t) = ((*waste_t) / ((*len_stock) * ceil(*obj_val))) ;
-	fout << "Waste percentage: " << (*waste_t)*100 << endl<<endl;
-
-//------------------------------------------------------------------------------
-	fout << "Order Lengths: [";
-	for (int* i = new int(0); (*i) < (*n_orders) -1; (*i)++) {
-		 fout << fixed << setprecision(2) << weights[*i] << " ";
-	}
-	fout<< fixed << setprecision(2) << weights[(*n_orders) - 1] << "]" <<endl<< endl;
-//------------------------------------------------------------------------------
-
-	fout << "Cutting Pattern" << "		" << "No.of times cut" <<endl;
-	for (int* p = new int(0); *p < *n_orders; (*p)++) {
-		fout << "[";
-		for (int* i = new int(0); *i < (*n_orders) - 1; (*i)++) {
-			fout << cutting_p[*p][*i] << " ";
-		}
-		fout << cutting_p[*p][(*n_orders) - 1] << ']' << "			" << npattern[*p] << endl;
-	}
-//--------------------------------------------------------------------------------
 	return 0;
 
 }
